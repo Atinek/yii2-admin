@@ -62,7 +62,7 @@ $callback = function($menu){
         'options' => $data,
         'items' => $menu['children']
     ];
-}
+};
 
 $items = MenuHelper::getAssignedMenu(Yii::$app->user->id, null, $callback);
 ```
